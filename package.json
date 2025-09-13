@@ -1,0 +1,28 @@
+{
+  "name": "github-project-discovery",
+  "version": "1.0.0",
+  "description": "Intelligent GitHub project discovery and analysis system powered by Eko AI framework",
+  "main": "dist/discovery_runner.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "discover": "npm run build && node dist/discovery_runner.js",
+    "enhance": "npm run build && node dist/enhancer_runner.js",
+    "app": "python3 main.py",
+    "clean": "rm -rf dist",
+    "start": "npm run app"
+  },
+  "dependencies": {
+    "@eko-ai/eko": "^3.0.2",
+    "@eko-ai/eko-nodejs": "^3.0.2",
+    "dotenv": "^17.2.2",
+    "express": "^4.21.2",
+    "playwright": "^1.55.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^20.19.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
