@@ -32,7 +32,7 @@ The tool works in two ways: there's a web interface that's perfect for exploring
 First, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/1692775560/eko-agent-github
+git clone https://github.com/1692775560/eko-agent-github.git
 cd eko-agent-github
 ```
 
@@ -66,7 +66,7 @@ npm run build
 Now you're ready to start discovering projects! Launch the web interface with:
 
 ```bash
-npm run app
+npm run main
 ```
 
 This will start a local server at `http://localhost:7861` where you can interact with the tool through a clean, intuitive web interface.
@@ -154,7 +154,7 @@ This project is open source and available under the MIT License, which means you
 
 **⭐ Star this repository if you find it useful!**
 
-Made with ❤️ using [Eko AI Framework](https://github.com/ekoinc/eko)
+Made with ❤️ using [Eko AI Framework]([https://github.com/ekoinc/eko](https://github.com/FellouAI/eko)
 
 </div>
 
