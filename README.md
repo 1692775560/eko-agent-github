@@ -32,8 +32,8 @@ The tool works in two ways: there's a web interface that's perfect for exploring
 First, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/github-project-discovery.git
-cd github-project-discovery
+git clone https://github.com/1692775560/eko-agent-github
+cd eko-agent-github
 ```
 
 Install the required dependencies for both Node.js and Python:
